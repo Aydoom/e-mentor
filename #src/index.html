@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<title>E-Mentor</title>
+</head>
+<body>
+	<div class="page">
+		<header class="page__header">
+			<div class="container">
+				@@include('_header.html')
+			</div>
+		</header>
+		<main>
+			<div class="page__numbers">
+				<div class="container">
+					@@include('_numbers.html')
+				</div>
+			</div>
+			<div class="page__teachers">
+				<div class="container container--big">
+					@@include('_teachers.html')
+				</div>
+			</div>
+			<div class="page__format">
+				<div class="container container--big container--big-left">	
+					@@include('_format.html')
+				</div>
+			</div>
+			<div class="page__courses">
+				<div class="container">
+					@@include('_courses.html')
+				</div>
+			</div>
+			<div class="page__banner">
+				<div class="container container--big">
+					@@include('_banner.html')
+				</div>
+			</div>			
+		</main>
+		<footer class="page__footer">
+			<div class="container container--big">
+				@@include('_footer.html')
+			</div>			
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html> 

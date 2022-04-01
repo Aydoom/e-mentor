@@ -4,9 +4,9 @@
 /node_modules
 dist.rar
 article.fig
-index.html
 solution.zip
 template.zip
 gulpfile.js
 prepros.config
 package-lock.json
+.gitignore
