@@ -1,0 +1,20 @@
+.courses {
+    text-align: center;
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    &__link {
+        max-width: 270px;
+        padding: 20px;
+        margin-right: 30px;
+        &:last-child {
+            @media (min-width: 1170px) {
+                margin-right: 0;                
+            }
+        }
+    }
+}

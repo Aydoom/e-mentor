@@ -1,0 +1,33 @@
+.numbers {
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__item {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 270px;
+        text-align: center;
+        margin-inline-start: 0;
+    }
+    &__title {
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 58px;
+        line-height: 58px;
+        color: #10b582;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    &__desc {
+        font-family: Raleway;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.8px;
+        color: #353A5A;
+        margin: 0;
+    }
+}

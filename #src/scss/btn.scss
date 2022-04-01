@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    width: 230px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 0px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    &--main {
+        color: #FDFDFD;
+        background-color: #fa9f42;
+    }
+    &--second {
+        color: #FDFDFD;
+        background-color: #10B582;
+    }
+}

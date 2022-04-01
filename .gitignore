@@ -1,0 +1,12 @@
+# User specific & automatically generated files #
+#################################################
+/index_files
+/node_modules
+dist.rar
+article.fig
+index.html
+solution.zip
+template.zip
+gulpfile.js
+prepros.config
+package-lock.json

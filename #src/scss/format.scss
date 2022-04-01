@@ -1,0 +1,36 @@
+.format {
+    display: flex;
+    padding-top: 120px;
+    background-color:#10B582;
+    align-items: flex-start;
+    justify-content: start;
+    @media (max-width: 876px){
+        margin-left: 175px;
+        display: block;
+    }
+    &__img {
+        width: 500px;
+        height: 382px;
+        padding-top: 30px;
+        background-image: url('../img/format-bg.png');
+        background-repeat: no-repeat;
+    }
+    &__text {
+        max-width: 500px;
+        padding-left: 100px;
+        padding-right: 205px;
+        @media (max-width: 876px){
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    &__title {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    &__btn {
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+}
